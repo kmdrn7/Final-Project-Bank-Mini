@@ -22,10 +22,6 @@ public class frmTransaksi extends javax.swing.JFrame {
     private BaseTransaksi base;
     private frmMain frmM;
     
-    public frmTransaksi(){
-        initComponents();
-    }
-    
     public frmTransaksi(String title, String type, Database db, BaseTransaksi base, frmMain m) {
         initComponents();
         this.db = db;

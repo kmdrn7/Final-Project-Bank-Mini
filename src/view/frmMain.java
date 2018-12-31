@@ -13,14 +13,11 @@ import repository.Database;
  */
 public class frmMain extends javax.swing.JFrame {
 
-    Database db;
+    private Database db;
     
     /**
      * Creates new form Main
      */
-    public frmMain() {
-        initComponents();
-    }
     
     public frmMain(Database db){
         this.db = db;

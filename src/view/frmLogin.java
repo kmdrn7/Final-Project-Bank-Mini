@@ -35,10 +35,6 @@ public class frmLogin extends javax.swing.JFrame {
     
     // Database
     private Database db;
-
-    public frmLogin(){
-        initComponents();
-    }
     
     public frmLogin(String type, Database db, frmMain m) {
         initComponents();
